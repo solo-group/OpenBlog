@@ -1,2 +1,2 @@
 # OpenBlog
-A Open Socurce Blog Application.
+An Open Socurce Blog Application.
