@@ -48,6 +48,10 @@ open "config.php" and  put a link of your website in the red underlined area and
 * like this image
 ![Alt text](images/temp/database.jpg?raw=true "database.php ")
 
-open "database.php" and save the database data you create within the database
+open "database.php" and save the database data you create within the database.
+
+
+
+# Now visit your site and create your site's admin account from register page.
 
           
