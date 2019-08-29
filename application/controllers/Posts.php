@@ -59,7 +59,8 @@ class Posts extends CI_Controller {
         'siteLogo'=>$this->Page_model->getsiteDetails()['site_logo'],
         'favIcon'=> $this->Page_model->getsiteDetails()['site_favicon'],
         'siteName'=> $this->Page_model->getsiteDetails()['site_name'],
-        'pageDes'=>$this->Page_model->getsiteDetails()['site_des']
+        'pageDes'=>$this->Page_model->getsiteDetails()['site_des'],
+        'siteDes'=>$this->Page_model->getsiteDetails()['site_des']
 
        );
 
@@ -127,7 +128,8 @@ class Posts extends CI_Controller {
         'siteLogo'=>$this->Page_model->getsiteDetails()['site_logo'],
         'favIcon'=> $this->Page_model->getsiteDetails()['site_favicon'],
         'siteName'=> $this->Page_model->getsiteDetails()['site_name'],
-        'pageDes'=> strip_tags($this->Posts_model->get_posts($slug)['post_content'])
+        'pageDes'=> strip_tags($this->Posts_model->get_posts($slug)['post_content']),
+        'siteDes'=>$this->Page_model->getsiteDetails()['site_des']
 
        );
 
@@ -162,7 +164,8 @@ class Posts extends CI_Controller {
         'siteLogo'=>$this->Page_model->getsiteDetails()['site_logo'],
         'favIcon'=> $this->Page_model->getsiteDetails()['site_favicon'],
         'siteName'=> $this->Page_model->getsiteDetails()['site_name'],
-        'pageDes'=>$this->Page_model->getsiteDetails()['site_tagline']
+        'pageDes'=>$this->Page_model->getsiteDetails()['site_tagline'],
+        'siteDes'=>$this->Page_model->getsiteDetails()['site_des']
 
        );
 
@@ -199,7 +202,8 @@ class Posts extends CI_Controller {
         'siteLogo'=>$this->Page_model->getsiteDetails()['site_logo'],
         'favIcon'=> $this->Page_model->getsiteDetails()['site_favicon'],
         'siteName'=> $this->Page_model->getsiteDetails()['site_name'],
-        'pageDes'=>$this->Page_model->getsiteDetails()['site_des']
+        'pageDes'=>$this->Page_model->getsiteDetails()['site_des'],
+        'siteDes'=>$this->Page_model->getsiteDetails()['site_des']
 
        );
         $this->load->view('templates/header', $data);
@@ -234,7 +238,8 @@ class Posts extends CI_Controller {
         'siteLogo'=>$this->Page_model->getsiteDetails()['site_logo'],
         'favIcon'=> $this->Page_model->getsiteDetails()['site_favicon'],
         'siteName'=> $this->Page_model->getsiteDetails()['site_name'],
-        'pageDes'=>$this->Page_model->getsiteDetails()['site_des']
+        'pageDes'=>$this->Page_model->getsiteDetails()['site_des'],
+        'siteDes'=>$this->Page_model->getsiteDetails()['site_des']
 
        );
 
@@ -269,7 +274,8 @@ class Posts extends CI_Controller {
         'siteLogo'=>$this->Page_model->getsiteDetails()['site_logo'],
         'favIcon'=> $this->Page_model->getsiteDetails()['site_favicon'],
         'siteName'=> $this->Page_model->getsiteDetails()['site_name'],
-        'pageDes'=>$this->Page_model->getsiteDetails()['site_des']
+        'pageDes'=>$this->Page_model->getsiteDetails()['site_des'],
+        'siteDes'=>$this->Page_model->getsiteDetails()['site_des']
 
        );
 

@@ -39,7 +39,8 @@ class Pages extends CI_Controller {
         'siteLogo'=>$this->Page_model->getsiteDetails()['site_logo'],
         'favIcon'=> $this->Page_model->getsiteDetails()['site_favicon'],
         'siteName'=> $this->Page_model->getsiteDetails()['site_name'],
-        'pageDes'=>$this->Page_model->getsiteDetails()['site_des']
+        'pageDes'=>$this->Page_model->getsiteDetails()['site_des'],
+        'siteDes'=>$this->Page_model->getsiteDetails()['site_des']
 
        );
 

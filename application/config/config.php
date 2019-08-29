@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 
-$config['base_url'] = 'https://your-site-url.com/';
+$config['base_url'] = 'http://localhost/OpenBlog';
 
 
 $config['index_page'] = '';

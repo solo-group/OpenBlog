@@ -122,7 +122,7 @@
 
         <div class="footerPostsWraper">
 
-          <p><?php echo substr( $pageMeta['pageDes'],0,300) ?></p>
+          <p><?php echo substr( $pageMeta['siteDes'],0,300) ?></p>
 
         </div>
 

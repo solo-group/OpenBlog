@@ -42,8 +42,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 		public function createPost($post_image){
-			$slug = url_title($this->input->post('postTitle'));
 
+			$xslug = url_title($this->input->post('postTitle'));
+			$Pslug =  preg_replace('/[^a-zA-Z0-9-]/', '', $xslug);
+			 if ($Pslug == '' || strlen($Pslug) <= 10) {
+			 	$slug= $Pslug.crc32(microtime());
+			 }else{
+			 	$slug= $Pslug;
+			 }
 			$data = array(
 
 				'post_title' => $this->security->xss_clean($this->input->post('postTitle')),
