@@ -1,5 +1,5 @@
 # OpenBlog
-An Open Socurce Blog Application.
+An Open Source Blog Application.
 
 ###################
 What is OpenBlog
