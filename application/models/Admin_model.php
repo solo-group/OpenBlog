@@ -1,6 +1,6 @@
 <?php
 /**
- * @name        OpenBlog - An Open Socurce Blog Application
+ * @name        OpenBlog - An Open Source Blog Application
  * @author      Anik Ghosh
  * @link        https://github.com/anikghosh356/OpenBlog
  * @license     https://opensource.org/licenses/MIT	MIT License

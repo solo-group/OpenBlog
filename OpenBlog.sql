@@ -91,7 +91,7 @@ CREATE TABLE `sitedetails` (
 --
 
 INSERT INTO `sitedetails` (`d_id`, `site_name`, `site_tagline`, `site_des`, `site_logo`, `site_favicon`) VALUES
-(1, 'OpenBlog', 'An Open Socurce Blog Application', 'Welcome to my OpenBlog .It is an open source blog application .', NULL, 'favicon.ico');
+(1, 'OpenBlog', 'An Open Source Blog Application', 'Welcome to my OpenBlog .It is an open source blog application .', NULL, 'favicon.ico');
 
 -- --------------------------------------------------------
 
